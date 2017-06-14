@@ -1,0 +1,63 @@
+.button {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+height:30px;
+width:50%;
+color: #9ACD32;
+border:#9ACD32;
+border-radius: 10px;
+background-color:#FFFFFF;
+border-style: solid;
+border-width: 2px;
+}
+#last{
+    color: #9ACD32;
+    
+}
+h1, h3, h4 {
+color:#C0C0C0;
+}
+.maincontainer{
+  width:100%;
+
+}
+input[button]{
+  width:100%
+}
+
+
+
+@media (min-width:1025px) {
+  input[value="Open a chequing account"]{
+    width:50%;
+    margin-bottom: 15px;
+    margin-left:50%;
+  }
+  input[value="Switch to TD"]{
+    width:50%;
+    margin-bottom: 15px;
+    margin-left:50%;
+  }
+  input[value="Open a U.S. Dollar account"]{
+    width:50%;
+    margin-bottom: 15px;
+    margin-left:50%;
+  }
+
+  input[value="Open a savings account"]{
+    width:50%;
+    margin-bottom: 15px;
+    margin-right:50%;
+  }
+  input[value="Review my everyday banking needs"]{
+    width:50%;
+    margin-bottom: 15px;
+    margin-right:50%;
+  }
+  input[value="Apply for Overdraft Protection"]{
+    width:50%;
+    margin-bottom: 15px;
+    margin-right:50%;
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/scripts/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+  <div class="row maincontainer">
+
+    <div class="col-sm-12 col-md-12 col-xs-12" align="center">
+      <h1>Book An Appointment</h1>
+      <h4>Our Investing Topics</h4>
+      <h3>Pick a topic, then we will find a time and place</h3>
+      <div class="">
+        <span class="col-sm-12 col-md-6 col-xs-6" ng-repeat="x in records"><input value={{x.title}} class = "button" type="button"/></span>
+      </div>
+
+      <script src="test.js"></script> 
+
+      <a id="last" href="#" >> Return to previous screen</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
